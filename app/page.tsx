@@ -7,7 +7,6 @@ import {
   Download,
   Mail,
   MapPin,
-  Moon,
   TerminalSquare
 } from "lucide-react";
 import {
@@ -19,6 +18,7 @@ import {
 import type { TechStackItem } from "./data";
 import { getGitHubContributionCalendar } from "./github-contributions";
 import { SmoothScroll } from "./smooth-scroll";
+import { ThemeToggle } from "./theme-toggle";
 
 function Nav() {
   return (
@@ -30,9 +30,7 @@ function Nav() {
           </Link>
         ))}
       </nav>
-      <button className="theme-button" aria-label="Toggle theme" type="button">
-        <Moon size={15} />
-      </button>
+      <ThemeToggle />
     </header>
   );
 }

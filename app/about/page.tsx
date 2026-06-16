@@ -1,16 +1,20 @@
 import Link from "next/link";
 import { navItems } from "../data";
 import { SmoothScroll } from "../smooth-scroll";
+import { ThemeToggle } from "../theme-toggle";
 
 function Nav() {
   return (
-    <nav className="floating-nav" aria-label="Main navigation">
-      {navItems.map((item) => (
-        <Link key={item.href} href={item.href}>
-          {item.label}
-        </Link>
-      ))}
-    </nav>
+    <header className="topbar">
+      <nav className="floating-nav" aria-label="Main navigation">
+        {navItems.map((item) => (
+          <Link key={item.href} href={item.href}>
+            {item.label}
+          </Link>
+        ))}
+      </nav>
+      <ThemeToggle />
+    </header>
   );
 }
 
