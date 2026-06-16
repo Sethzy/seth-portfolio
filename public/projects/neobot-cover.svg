@@ -1,0 +1,117 @@
+<svg width="1300" height="600" viewBox="0 0 1300 600" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">NeoBot AI CRM cover</title>
+  <desc id="desc">A polished AI CRM workspace showing daily relationship work, follow-ups, pipeline stages, approvals, and an assistant review panel.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1300" y2="600" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#101827"/>
+      <stop offset="0.52" stop-color="#181A2E"/>
+      <stop offset="1" stop-color="#2A1F43"/>
+    </linearGradient>
+    <linearGradient id="chrome" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#0F172A"/>
+      <stop offset="1" stop-color="#1F2937"/>
+    </linearGradient>
+    <linearGradient id="violet" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#7C5CFF"/>
+      <stop offset="1" stop-color="#B469FF"/>
+    </linearGradient>
+    <linearGradient id="mint" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#ECFDF3"/>
+      <stop offset="1" stop-color="#F7FFF9"/>
+    </linearGradient>
+    <linearGradient id="peach" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#FFF3E8"/>
+      <stop offset="1" stop-color="#FFFBF5"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-18%" width="120%" height="140%" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="18" stdDeviation="14" flood-color="#050711" flood-opacity="0.34"/>
+    </filter>
+    <pattern id="grain" width="8" height="8" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="0.75" fill="#FFFFFF" opacity="0.08"/>
+    </pattern>
+  </defs>
+
+  <rect width="1300" height="600" fill="url(#bg)"/>
+  <rect width="1300" height="600" fill="url(#grain)"/>
+  <path d="M960 0L1300 318V600H1194L866 0H960Z" fill="#FFFFFF" opacity="0.055"/>
+  <circle cx="1126" cy="96" r="178" fill="#7C5CFF" opacity="0.14"/>
+
+  <text x="72" y="88" fill="#FFFFFF" font-family="Inter, Arial, sans-serif" font-size="52" font-weight="870">NeoBot AI CRM</text>
+  <text x="74" y="128" fill="#C9D0E5" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="590">A calm relationship workspace for meetings, deals, and approvals.</text>
+
+  <g filter="url(#shadow)">
+    <rect x="96" y="176" width="1108" height="322" rx="34" fill="#F8FAFC"/>
+    <rect x="96" y="176" width="1108" height="70" rx="34" fill="url(#chrome)"/>
+    <path d="M96 211C96 191.7 111.7 176 131 176H1169C1188.3 176 1204 191.7 1204 211V246H96V211Z" fill="url(#chrome)"/>
+    <circle cx="138" cy="211" r="8" fill="#FF6B5E"/>
+    <circle cx="166" cy="211" r="8" fill="#F5C453"/>
+    <circle cx="194" cy="211" r="8" fill="#58C970"/>
+    <text x="232" y="219" fill="#F8FAFC" font-family="Inter, Arial, sans-serif" font-size="25" font-weight="850">NeoBot workspace</text>
+    <rect x="950" y="195" width="188" height="33" rx="16.5" fill="#222B3A"/>
+    <circle cx="976" cy="211.5" r="6" fill="#34D399"/>
+    <text x="994" y="217" fill="#D1FAE5" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="820">daily plan ready</text>
+
+    <path d="M96 246H284V498H130C111.2 498 96 482.8 96 464V246Z" fill="#111827"/>
+    <rect x="126" y="280" width="128" height="40" rx="14" fill="#FFFFFF" opacity="0.1"/>
+    <g font-family="Inter, Arial, sans-serif" font-size="15" font-weight="820">
+      <text x="166" y="306" fill="#FFFFFF">Home</text>
+      <text x="166" y="352" fill="#94A3B8">Chat</text>
+      <text x="166" y="398" fill="#94A3B8">CRM</text>
+      <text x="166" y="444" fill="#94A3B8">Meetings</text>
+    </g>
+    <g fill="none" stroke-linecap="round" stroke-width="3">
+      <path d="M140 300H150M145 295V305" stroke="#FFFFFF"/>
+      <path d="M140 346H152" stroke="#94A3B8"/>
+      <path d="M140 391H154M140 399H150" stroke="#94A3B8"/>
+      <path d="M140 438H154M140 446H150" stroke="#94A3B8"/>
+    </g>
+
+    <text x="324" y="300" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="860">Today</text>
+    <text x="326" y="333" fill="#64748B" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="620">A clear queue for relationship work that needs attention.</text>
+
+    <rect x="324" y="360" width="178" height="92" rx="20" fill="#FFFFFF" stroke="#E3E7EF"/>
+    <text x="348" y="393" fill="#64748B" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="850">FOLLOW-UPS</text>
+    <text x="348" y="430" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="860">12</text>
+    <rect x="438" y="407" width="40" height="24" rx="12" fill="#EEF2FF"/>
+    <text x="448" y="424" fill="#5B4BDB" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="850">due</text>
+
+    <rect x="526" y="360" width="188" height="92" rx="20" fill="url(#mint)" stroke="#C5F2D6"/>
+    <text x="550" y="393" fill="#047857" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="850">MEETING PREP</text>
+    <text x="550" y="430" fill="#064E3B" font-family="Inter, Arial, sans-serif" font-size="29" font-weight="860">3 ready</text>
+
+    <rect x="738" y="360" width="178" height="92" rx="20" fill="url(#peach)" stroke="#FED7AA"/>
+    <text x="762" y="393" fill="#B45309" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="850">APPROVALS</text>
+    <text x="762" y="430" fill="#7C2D12" font-family="Inter, Arial, sans-serif" font-size="29" font-weight="860">2 open</text>
+
+    <rect x="324" y="456" width="592" height="1" fill="#E3E7EF"/>
+    <rect x="324" y="466" width="174" height="26" rx="13" fill="#F8FAFC" stroke="#E3E7EF"/>
+    <text x="356" y="484" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="850">Rachel Ng</text>
+    <rect x="520" y="466" width="174" height="26" rx="13" fill="#F5F3FF" stroke="#DDD6FE"/>
+    <text x="550" y="484" fill="#5B21B6" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="850">Marcus Loh</text>
+    <rect x="716" y="466" width="174" height="26" rx="13" fill="#ECFDF5" stroke="#BBF7D0"/>
+    <text x="750" y="484" fill="#047857" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="850">David Lim</text>
+
+    <rect x="948" y="280" width="216" height="188" rx="24" fill="#FFFFFF" stroke="#E3E7EF"/>
+    <rect x="972" y="304" width="168" height="54" rx="17" fill="#111827"/>
+    <circle cx="1004" cy="331" r="13" fill="url(#violet)"/>
+    <text x="1030" y="326" fill="#FFFFFF" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="850">NeoBot</text>
+    <text x="1030" y="346" fill="#C7D2FE" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="720">Assistant</text>
+    <rect x="972" y="382" width="168" height="50" rx="15" fill="#F8FAFC" stroke="#E3E7EF"/>
+    <text x="992" y="410" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="850">Prepare meeting</text>
+    <rect x="972" y="444" width="76" height="30" rx="15" fill="url(#violet)"/>
+    <text x="995" y="464" fill="#FFFFFF" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="850">Send</text>
+    <rect x="1060" y="444" width="80" height="30" rx="15" fill="#F1F5F9"/>
+    <text x="1085" y="464" fill="#475569" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="850">Edit</text>
+  </g>
+
+  <g font-family="Inter, Arial, sans-serif" font-size="16" font-weight="850">
+    <rect x="382" y="520" width="108" height="34" rx="17" fill="#FFFFFF" fill-opacity="0.1" stroke="#FFFFFF" stroke-opacity="0.14"/>
+    <text x="410" y="543" fill="#F8FAFC">Supabase</text>
+    <rect x="506" y="520" width="102" height="34" rx="17" fill="#FFFFFF" fill-opacity="0.1" stroke="#FFFFFF" stroke-opacity="0.14"/>
+    <text x="536" y="543" fill="#F8FAFC">Claude</text>
+    <rect x="624" y="520" width="106" height="34" rx="17" fill="#FFFFFF" fill-opacity="0.1" stroke="#FFFFFF" stroke-opacity="0.14"/>
+    <text x="652" y="543" fill="#F8FAFC">Codex</text>
+    <rect x="746" y="520" width="102" height="34" rx="17" fill="#FFFFFF" fill-opacity="0.1" stroke="#FFFFFF" stroke-opacity="0.14"/>
+    <text x="774" y="543" fill="#F8FAFC">Vercel</text>
+  </g>
+</svg>

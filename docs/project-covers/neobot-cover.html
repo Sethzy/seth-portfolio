@@ -1,0 +1,291 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>NeoBot use cases cover</title>
+    <style>
+      @font-face {
+        font-family: "Neo Figtree";
+        src: url("file:///Users/sethlim/Documents/neobot-ai-crm/public/fonts/figtree-latin-wght-normal.woff2") format("woff2");
+        font-weight: 300 900;
+      }
+
+      @font-face {
+        font-family: "Neo Fraunces";
+        src: url("file:///Users/sethlim/Documents/neobot-ai-crm/public/fonts/fraunces-latin-full-normal.woff2") format("woff2");
+        font-weight: 300 900;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      html,
+      body {
+        width: 1800px;
+        height: 998px;
+        margin: 0;
+        overflow: hidden;
+        background: #1a1a1a;
+      }
+
+      body {
+        color: #fbf7f3;
+        font-family: "Neo Figtree", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        letter-spacing: 0;
+      }
+
+      .stage {
+        position: relative;
+        width: 1800px;
+        height: 998px;
+        overflow: hidden;
+        background:
+          radial-gradient(circle at 50% 0%, rgba(255, 255, 255, 0.055), transparent 34%),
+          linear-gradient(180deg, #1a1a1a 0%, #181818 100%);
+      }
+
+      .composition {
+        position: absolute;
+        inset: 0;
+        transform: scale(0.9);
+        transform-origin: center center;
+      }
+
+      .headline {
+        width: 1050px;
+        margin: 102px auto 0;
+        text-align: center;
+      }
+
+      h1 {
+        margin: 0;
+        color: #fbf7f3;
+        font-family: "Neo Fraunces", Georgia, serif;
+        font-size: 72px;
+        font-weight: 620;
+        line-height: 0.98;
+        letter-spacing: -0.035em;
+      }
+
+      .subcopy {
+        margin: 34px auto 0;
+        color: rgba(255, 255, 255, 0.68);
+        font-size: 28px;
+        font-weight: 520;
+        line-height: 1.3;
+      }
+
+      .tabs {
+        display: flex;
+        width: max-content;
+        margin: 54px auto 0;
+        align-items: center;
+        gap: 6px;
+        padding: 6px;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 999px;
+        background: rgba(255, 255, 255, 0.06);
+        box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.04);
+      }
+
+      .tab {
+        display: inline-flex;
+        min-height: 58px;
+        align-items: center;
+        gap: 12px;
+        padding: 0 28px;
+        border-radius: 999px;
+        color: rgba(255, 255, 255, 0.56);
+        font-size: 22px;
+        font-weight: 650;
+        white-space: nowrap;
+      }
+
+      .tab.active {
+        background: #ffffff;
+        color: #25483f;
+        box-shadow: 0 14px 32px rgba(0, 0, 0, 0.16);
+      }
+
+      .tab svg {
+        width: 24px;
+        height: 24px;
+        stroke-width: 2.2;
+      }
+
+      .grid {
+        position: absolute;
+        left: 176px;
+        right: 176px;
+        top: 438px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 28px 32px;
+      }
+
+      .card {
+        min-height: 192px;
+        padding: 36px 38px 30px;
+        border: 1px solid rgba(26, 26, 26, 0.1);
+        border-radius: 22px;
+        background: #f4eee2;
+        box-shadow: 0 1px 0 rgba(255, 255, 255, 0.52), 0 18px 34px rgba(0, 0, 0, 0.16);
+      }
+
+      .card-top {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        gap: 22px;
+      }
+
+      .card h2 {
+        margin: 0;
+        color: #1c1b1b;
+        font-size: 26px;
+        font-weight: 760;
+        line-height: 1.04;
+        letter-spacing: -0.025em;
+      }
+
+      .logos {
+        display: flex;
+        flex: 0 0 auto;
+        align-items: center;
+        gap: 15px;
+        transform: translateY(-7px);
+      }
+
+      .logos img {
+        width: 32px;
+        height: 32px;
+        display: block;
+        object-fit: contain;
+      }
+
+      .card p {
+        margin: 24px 0 0;
+        color: #5f5e67;
+        font-size: 22px;
+        font-weight: 520;
+        line-height: 1.38;
+        letter-spacing: -0.015em;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="stage" aria-label="NeoBot sales assistant use cases">
+      <div class="composition">
+        <section class="headline">
+          <h1>What will your sales assistant do?</h1>
+          <p class="subcopy">From customer support to closing deals - one message is all it takes.</p>
+        </section>
+
+        <nav class="tabs" aria-label="Use case categories">
+          <div class="tab active">
+            <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <path d="M5 12v6M5 12l12-5v10L5 12Zm12-5 2-1v12l-2-1" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+            Lead Gen
+          </div>
+          <div class="tab">
+            <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <path d="M8 12a4 4 0 0 1 7-2.7l1.5 1.5a3 3 0 1 1-4.2 4.2L12 14.7" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+            Client Care
+          </div>
+          <div class="tab">
+            <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <path d="M7 7h10v12H7V7Zm2 0V5h6v2M7 11h10" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+            Deal Pipeline
+          </div>
+          <div class="tab">
+            <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <path d="M5 19V5M9 19v-8M13 19v-5M17 19V8M5 19h15" stroke="currentColor" stroke-linecap="round" />
+            </svg>
+            Insights
+          </div>
+          <div class="tab">
+            <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <path d="M7 4h7l4 4v12H7V4Zm7 0v5h4M10 13h5M10 16h5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+            Documents
+          </div>
+        </nav>
+
+        <section class="grid" aria-label="Lead generation use cases">
+        <article class="card">
+          <div class="card-top">
+            <h2>Lead qualification</h2>
+            <div class="logos">
+              <img src="file:///Users/sethlim/Documents/neobot-ai-crm/public/logos/whatsapp-icon.svg" alt="" />
+              <img src="file:///Users/sethlim/Documents/neobot-ai-crm/public/logos/phone.svg" alt="" />
+            </div>
+          </div>
+          <p>Handle initial inquiries until they're qualified, then message me when it's ready for hand off.</p>
+        </article>
+
+        <article class="card">
+          <div class="card-top">
+            <h2>Lead scraping</h2>
+            <div class="logos">
+              <img src="file:///Users/sethlim/Documents/neobot-ai-crm/public/logos/firecrawl.svg" alt="" />
+              <img src="file:///Users/sethlim/Documents/neobot-ai-crm/public/logos/chrome.svg" alt="" />
+              <img src="file:///Users/sethlim/Documents/neobot-ai-crm/public/logos/google-sheets.svg" alt="" />
+            </div>
+          </div>
+          <p>Scrape listing sites and databases daily for matching prospects, then add them to my pipeline automatically.</p>
+        </article>
+
+        <article class="card">
+          <div class="card-top">
+            <h2>Lead research</h2>
+            <div class="logos">
+              <img src="file:///Users/sethlim/Documents/neobot-ai-crm/public/logos/linkedin.svg" alt="" />
+              <img src="file:///Users/sethlim/Documents/neobot-ai-crm/public/logos/firecrawl.svg" alt="" />
+            </div>
+          </div>
+          <p>New lead added? Pull their LinkedIn, company site, and public records. Get me a full brief before my first call.</p>
+        </article>
+
+        <article class="card">
+          <div class="card-top">
+            <h2>Daily LinkedIn</h2>
+            <div class="logos">
+              <img src="file:///Users/sethlim/Documents/neobot-ai-crm/public/logos/linkedin.svg" alt="" />
+              <img src="file:///Users/sethlim/Documents/neobot-ai-crm/public/logos/n8n.svg" alt="" />
+            </div>
+          </div>
+          <p>Every day, engage with people in my market and repost relevant industry content on LinkedIn.</p>
+        </article>
+
+        <article class="card">
+          <div class="card-top">
+            <h2>Referral timing</h2>
+            <div class="logos">
+              <img src="file:///Users/sethlim/Documents/neobot-ai-crm/public/logos/whatsapp-icon.svg" alt="" />
+              <img src="file:///Users/sethlim/Documents/neobot-ai-crm/public/logos/n8n.svg" alt="" />
+            </div>
+          </div>
+          <p>Client just closed and sentiment is high. Draft a warm referral ask and send it at the right moment.</p>
+        </article>
+
+        <article class="card">
+          <div class="card-top">
+            <h2>Ad lead capture</h2>
+            <div class="logos">
+              <img src="file:///Users/sethlim/Documents/neobot-ai-crm/public/logos/instagram-icon.svg" alt="" />
+              <img src="file:///Users/sethlim/Documents/neobot-ai-crm/public/logos/meta.svg" alt="" />
+              <img src="file:///Users/sethlim/Documents/neobot-ai-crm/public/logos/whatsapp-icon.svg" alt="" />
+            </div>
+          </div>
+          <p>Someone clicks my ad and lands on the page - Neo qualifies them, tags the source, and books a call.</p>
+        </article>
+        </section>
+      </div>
+    </main>
+  </body>
+</html>

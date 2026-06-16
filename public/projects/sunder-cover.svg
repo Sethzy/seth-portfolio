@@ -1,0 +1,99 @@
+<svg width="1300" height="600" viewBox="0 0 1300 600" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Sunder document processing cover</title>
+  <desc id="desc">A polished claims document processing workspace with source packet intake, citation-backed extraction, review, validation, and report export.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1300" y2="600" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F4FFFC"/>
+      <stop offset="0.52" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#F2F7FF"/>
+    </linearGradient>
+    <linearGradient id="chrome" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#0C2724"/>
+      <stop offset="1" stop-color="#10201E"/>
+    </linearGradient>
+    <linearGradient id="sourceCard" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#ECFDF8"/>
+      <stop offset="1" stop-color="#F8FFFD"/>
+    </linearGradient>
+    <linearGradient id="evidenceCard" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#F8FAFC"/>
+      <stop offset="1" stop-color="#FFFFFF"/>
+    </linearGradient>
+    <linearGradient id="teal" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#0C7C71"/>
+      <stop offset="1" stop-color="#36A99A"/>
+    </linearGradient>
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#2F6FEB"/>
+      <stop offset="1" stop-color="#67A5FF"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-18%" width="120%" height="140%" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="18" stdDeviation="14" flood-color="#0B3B37" flood-opacity="0.14"/>
+    </filter>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" stroke="#E6F0EE" stroke-width="1" opacity="0.68"/>
+    </pattern>
+  </defs>
+
+  <rect width="1300" height="600" fill="url(#bg)"/>
+  <rect width="1300" height="600" fill="url(#grid)" opacity="0.76"/>
+
+  <text x="72" y="88" fill="#10201E" font-family="Inter, Arial, sans-serif" font-size="52" font-weight="870">Sunder Document Processing</text>
+  <text x="74" y="128" fill="#536D68" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="590">Turn messy claim packets into reviewed, citation-backed case dossiers.</text>
+
+  <g filter="url(#shadow)">
+    <rect x="96" y="176" width="1108" height="322" rx="34" fill="#FFFFFF" stroke="#DCE8E5" stroke-width="2"/>
+    <rect x="96" y="176" width="1108" height="70" rx="34" fill="url(#chrome)"/>
+    <path d="M96 211C96 191.7 111.7 176 131 176H1169C1188.3 176 1204 191.7 1204 211V246H96V211Z" fill="url(#chrome)"/>
+    <circle cx="138" cy="211" r="8" fill="#FF6B5E"/>
+    <circle cx="166" cy="211" r="8" fill="#F5C453"/>
+    <circle cx="194" cy="211" r="8" fill="#58C970"/>
+    <text x="232" y="219" fill="#E9FFFA" font-family="Inter, Arial, sans-serif" font-size="25" font-weight="850">Claim dossier workspace</text>
+    <rect x="940" y="195" width="198" height="33" rx="16.5" fill="#193B36"/>
+    <circle cx="966" cy="211.5" r="6" fill="#34D399"/>
+    <text x="984" y="217" fill="#D7FFF7" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="820">review queue active</text>
+
+    <rect x="136" y="286" width="246" height="150" rx="26" fill="url(#sourceCard)" stroke="#C8E5DE"/>
+    <text x="166" y="324" fill="#10201E" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="860">Source packet</text>
+    <rect x="166" y="350" width="92" height="12" rx="6" fill="#0C7C71"/>
+    <rect x="166" y="376" width="160" height="12" rx="6" fill="#BFD8D3"/>
+    <rect x="166" y="402" width="130" height="12" rx="6" fill="#D7E6E2"/>
+    <rect x="318" y="332" width="42" height="54" rx="10" fill="#FFFFFF" stroke="#CFDFDC"/>
+    <rect x="302" y="350" width="42" height="54" rx="10" fill="#FFFFFF" stroke="#CFDFDC"/>
+    <path d="M316 377H340" stroke="#2F6FEB" stroke-width="4" stroke-linecap="round"/>
+
+    <path d="M404 361H434" stroke="#7A9893" stroke-width="4" stroke-linecap="round" stroke-dasharray="2 12"/>
+
+    <rect x="434" y="264" width="430" height="196" rx="28" fill="url(#evidenceCard)" stroke="#DEE7E4"/>
+    <text x="466" y="303" fill="#10201E" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="860">Citation extraction</text>
+    <rect x="466" y="332" width="134" height="78" rx="16" fill="#F8FAFC" stroke="#E0E8E6"/>
+    <text x="490" y="362" fill="#667B77" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="820">SPLIT DOCS</text>
+    <path d="M494 386H572" stroke="#0C7C71" stroke-width="5" stroke-linecap="round"/>
+    <rect x="624" y="324" width="204" height="34" rx="12" fill="#F2FFFB" stroke="#BFE3DC"/>
+    <text x="646" y="347" fill="#0B6159" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="800">Medical expense</text>
+    <rect x="624" y="370" width="204" height="34" rx="12" fill="#F8FAFC" stroke="#E3E9EF"/>
+    <text x="646" y="393" fill="#334155" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="800">Income document</text>
+    <rect x="624" y="416" width="204" height="34" rx="12" fill="#FFF8ED" stroke="#F3D39B"/>
+    <text x="646" y="439" fill="#8A5B00" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="800">Needs review</text>
+
+    <path d="M886 361H916" stroke="#7A9893" stroke-width="4" stroke-linecap="round" stroke-dasharray="2 12"/>
+
+    <rect x="918" y="286" width="246" height="150" rx="26" fill="#10201E"/>
+    <text x="948" y="324" fill="#E7FFF9" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="860">Validation</text>
+    <rect x="948" y="350" width="162" height="12" rx="6" fill="#65BDB1"/>
+    <rect x="948" y="378" width="126" height="12" rx="6" fill="#65BDB1" opacity="0.72"/>
+    <rect x="948" y="406" width="168" height="36" rx="18" fill="url(#blue)"/>
+    <text x="984" y="430" fill="#FFFFFF" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="850">Export report</text>
+  </g>
+
+  <g font-family="Inter, Arial, sans-serif" font-size="16" font-weight="850">
+    <rect x="378" y="520" width="116" height="34" rx="17" fill="#FFFFFF" stroke="#DDE7E4"/>
+    <text x="410" y="543" fill="#10201E">Supabase</text>
+    <rect x="510" y="520" width="98" height="34" rx="17" fill="#FFFFFF" stroke="#DDE7E4"/>
+    <text x="536" y="543" fill="#10201E">Gemini</text>
+    <rect x="624" y="520" width="118" height="34" rx="17" fill="#FFFFFF" stroke="#DDE7E4"/>
+    <text x="652" y="543" fill="#10201E">Extend AI</text>
+    <rect x="758" y="520" width="106" height="34" rx="17" fill="#10201E"/>
+    <text x="786" y="543" fill="#FFFFFF">Review</text>
+  </g>
+</svg>

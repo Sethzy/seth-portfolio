@@ -1,0 +1,91 @@
+<svg width="1300" height="600" viewBox="0 0 1300 600" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Agentic GTM Systems cover</title>
+  <desc id="desc">A polished GTM command center interface showing account intelligence, scoring, routing, and outbound handoff.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1300" y2="600" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F7FAFC"/>
+      <stop offset="0.56" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#F2F8F5"/>
+    </linearGradient>
+    <linearGradient id="chrome" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#0F172A"/>
+      <stop offset="1" stop-color="#1F2937"/>
+    </linearGradient>
+    <linearGradient id="cardA" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#EFF6FF"/>
+      <stop offset="1" stop-color="#ECFEFF"/>
+    </linearGradient>
+    <linearGradient id="cardB" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#ECFDF3"/>
+      <stop offset="1" stop-color="#F7FEE7"/>
+    </linearGradient>
+    <linearGradient id="cardC" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#F5F3FF"/>
+      <stop offset="1" stop-color="#EEF2FF"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-18%" width="120%" height="140%" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="18" stdDeviation="14" flood-color="#0F172A" flood-opacity="0.14"/>
+    </filter>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" stroke="#E7ECF2" stroke-width="1" opacity="0.62"/>
+    </pattern>
+  </defs>
+
+  <rect width="1300" height="600" fill="url(#bg)"/>
+  <rect width="1300" height="600" fill="url(#grid)" opacity="0.72"/>
+
+  <text x="72" y="88" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="52" font-weight="870">Agentic GTM Systems</text>
+  <text x="74" y="128" fill="#667085" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="590">Scrape, enrich, score, and route GTM work with reviewed handoffs.</text>
+
+  <g filter="url(#shadow)">
+    <rect x="96" y="176" width="1108" height="322" rx="34" fill="#FFFFFF" stroke="#DCE5EE" stroke-width="2"/>
+    <rect x="96" y="176" width="1108" height="70" rx="34" fill="url(#chrome)"/>
+    <path d="M96 211C96 191.7 111.7 176 131 176H1169C1188.3 176 1204 191.7 1204 211V246H96V211Z" fill="url(#chrome)"/>
+    <circle cx="138" cy="211" r="8" fill="#FF6B5E"/>
+    <circle cx="166" cy="211" r="8" fill="#F5C453"/>
+    <circle cx="194" cy="211" r="8" fill="#58C970"/>
+    <text x="232" y="219" fill="#F8FAFC" font-family="Inter, Arial, sans-serif" font-size="25" font-weight="850">GTM command center</text>
+    <rect x="948" y="195" width="190" height="33" rx="16.5" fill="#222B3A"/>
+    <circle cx="974" cy="211.5" r="6" fill="#34D399"/>
+    <text x="992" y="217" fill="#D1FAE5" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="820">qualified queue ready</text>
+
+    <rect x="136" y="286" width="248" height="150" rx="26" fill="url(#cardA)" stroke="#CFE2F5"/>
+    <text x="166" y="324" fill="#0F172A" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="860">Market map</text>
+    <rect x="166" y="350" width="84" height="14" rx="7" fill="#A7D8F7"/>
+    <rect x="166" y="376" width="150" height="14" rx="7" fill="#D0EAF7"/>
+    <rect x="166" y="402" width="118" height="14" rx="7" fill="#D0EAF7"/>
+    <circle cx="331" cy="362" r="22" fill="#FFFFFF" stroke="#BFE0F5" stroke-width="2"/>
+    <path d="M321 362H341M331 352V372" stroke="#118AB2" stroke-width="5" stroke-linecap="round"/>
+
+    <rect x="432" y="286" width="314" height="150" rx="26" fill="url(#cardB)" stroke="#C7EAD4"/>
+    <text x="462" y="324" fill="#0F172A" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="860">Enrichment review</text>
+    <rect x="462" y="356" width="214" height="12" rx="6" fill="#D4ECDD"/>
+    <rect x="462" y="386" width="214" height="12" rx="6" fill="#D4ECDD"/>
+    <rect x="462" y="416" width="214" height="12" rx="6" fill="#D4ECDD"/>
+    <rect x="698" y="348" width="24" height="88" rx="12" fill="#E2E8F0"/>
+    <rect x="698" y="372" width="24" height="64" rx="12" fill="#22C55E"/>
+
+    <rect x="794" y="286" width="370" height="150" rx="26" fill="url(#cardC)" stroke="#DDD6FE"/>
+    <text x="824" y="324" fill="#0F172A" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="860">Outbound handoff</text>
+    <rect x="824" y="356" width="128" height="48" rx="16" fill="#111827"/>
+    <text x="856" y="386" fill="#F8FAFC" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="850">Smartlead</text>
+    <path d="M974 380H1018" stroke="#9AA7B7" stroke-width="4" stroke-linecap="round" stroke-dasharray="2 12"/>
+    <rect x="1038" y="356" width="86" height="48" rx="16" fill="#FFFFFF" stroke="#E2E8F0"/>
+    <text x="1068" y="386" fill="#0F172A" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="850">CRM</text>
+  </g>
+
+  <g font-family="Inter, Arial, sans-serif" font-size="16" font-weight="850">
+    <rect x="316" y="520" width="86" height="34" rx="17" fill="#FFFFFF" stroke="#DDE5EE"/>
+    <text x="346" y="543" fill="#111827">Clay</text>
+    <rect x="418" y="520" width="100" height="34" rx="17" fill="#FFFFFF" stroke="#DDE5EE"/>
+    <text x="450" y="543" fill="#111827">Make</text>
+    <rect x="534" y="520" width="84" height="34" rx="17" fill="#FFFFFF" stroke="#DDE5EE"/>
+    <text x="563" y="543" fill="#111827">n8n</text>
+    <rect x="634" y="520" width="92" height="34" rx="17" fill="#FFFFFF" stroke="#DDE5EE"/>
+    <text x="661" y="543" fill="#111827">Apify</text>
+    <rect x="742" y="520" width="126" height="34" rx="17" fill="#FFFFFF" stroke="#DDE5EE"/>
+    <text x="770" y="543" fill="#111827">Firecrawl</text>
+    <rect x="884" y="520" width="132" height="34" rx="17" fill="#111827"/>
+    <text x="914" y="543" fill="#FFFFFF">Smartlead</text>
+  </g>
+</svg>
