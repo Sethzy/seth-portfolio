@@ -1417,20 +1417,26 @@ h3 {
   .shell,
   .page-shell {
     width: min(100% - 22px, 760px);
-    padding-top: 88px;
+    padding-top: 64px;
+  }
+
+  .topbar {
+    width: min(100% - 22px, 760px);
+    margin-top: 18px;
   }
 
   .floating-nav {
-    top: 14px;
-    width: calc(100% - 24px);
-    justify-content: center;
+    width: auto;
+    flex: 1;
+    justify-content: flex-start;
   }
 
   .floating-nav a {
     min-width: 0;
-    flex: 1;
-    padding-right: 10px;
-    padding-left: 10px;
+    flex: 0 0 auto;
+    padding-right: 0;
+    padding-left: 0;
+    font-size: 15px;
   }
 
   .hero-card,
