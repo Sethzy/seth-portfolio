@@ -44,15 +44,13 @@ button {
 }
 
 .topbar {
-  position: fixed;
   z-index: 20;
-  top: 25px;
-  left: 50%;
+  position: static;
   display: flex;
   width: min(768px, calc(100% - 32px));
   align-items: center;
   justify-content: space-between;
-  transform: translateX(-50%);
+  margin: 25px auto 0;
 }
 
 .floating-nav {
@@ -94,7 +92,7 @@ button {
 .shell {
   width: min(768px, calc(100% - 32px));
   margin: 0 auto;
-  padding: 144px 0 48px;
+  padding: 72px 0 48px;
 }
 
 .page-shell {
@@ -194,6 +192,14 @@ h1 {
   margin-top: 5px;
   min-width: 20ch;
   overflow: hidden;
+  color: #666;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.35;
+}
+
+.subtitle-static {
+  margin-top: 5px;
   color: #666;
   font-size: 16px;
   font-weight: 600;

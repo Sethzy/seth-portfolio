@@ -19,7 +19,6 @@ import {
 import type { TechStackItem } from "./data";
 import { getGitHubContributionCalendar } from "./github-contributions";
 import { SmoothScroll } from "./smooth-scroll";
-import { SubtitleRotator } from "./subtitle-rotator";
 
 function Nav() {
   return (
@@ -150,7 +149,7 @@ export default function Home() {
             />
             <div className="title-stack">
               <h1>Seth Lim</h1>
-              <SubtitleRotator />
+              <p className="subtitle-static">AI Workflow Builder</p>
             </div>
           </div>
           <div className="meta-grid">
