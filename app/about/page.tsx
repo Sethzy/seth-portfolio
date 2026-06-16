@@ -69,10 +69,13 @@ export default function AboutPage() {
             when it changes how work actually happens.
           </p>
           <p>
-            Since then I&apos;ve worked close to the operating layer: enterprise
-            sales at Boxo, fintech GTM at Airwallex, AI-enabled GTM systems at
-            Salescraft, and now reviewed agents for docs, CRM, company memory,
-            healthcare, and order intake.
+            After Cambridge, I learned the enterprise side at Boxo and
+            Airwallex: selling technical infrastructure, mapping stakeholders,
+            removing risk, and seeing how messy workflows become buying
+            decisions. Salescraft was the turn from operator to builder; I
+            started shipping AI-enabled GTM systems myself, then moved into
+            reviewed agents for docs, CRM, company memory, healthcare, and
+            order intake.
           </p>
         </section>
 
@@ -90,28 +93,6 @@ export default function AboutPage() {
                 <p>{body}</p>
               </article>
             ))}
-          </div>
-        </section>
-
-        <section className="prose-section split-prose">
-          <div>
-            <h2>Current Direction</h2>
-            <h3>—What drives me</h3>
-            <p>
-              I am trying to understand what AI-native work actually looks
-              like: not just better autocomplete, but new ways for teams to
-              store context, delegate work, review outputs, and compound what
-              they know.
-            </p>
-          </div>
-          <div>
-            <h3>—Where I fit</h3>
-            <p>
-              I am strongest in roles that need both commercial judgment and
-              product taste: AI deployment strategy, technical GTM, founder
-              office work, forward-deployed workflows, or early product
-              building around agents.
-            </p>
           </div>
         </section>
 

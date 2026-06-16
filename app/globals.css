@@ -19,7 +19,6 @@
   --tag-bg: #2d2d2d;
   --tag-text: #f4f4f5;
   --media-bg: #ffffff;
-  --ghost: rgba(245, 245, 245, 0.9);
   --heat-0: #f1f1f1;
   --heat-1: #dcdcdf;
   --heat-2: #bdbdc4;
@@ -51,7 +50,6 @@
   --tag-bg: #f4f4f5;
   --tag-text: #111216;
   --media-bg: #f8fafc;
-  --ghost: rgba(255, 255, 255, 0.07);
   --heat-0: #181a20;
   --heat-1: #26352f;
   --heat-2: #2f6a52;
@@ -453,14 +451,6 @@ h3 {
   color: var(--button-primary-text);
 }
 
-.ghost-strip {
-  width: 310px;
-  height: 14px;
-  margin-top: 40px;
-  background: var(--ghost);
-  filter: blur(7px);
-}
-
 .social-row,
 .tag-row,
 .hero-actions,
@@ -595,8 +585,8 @@ h3 {
   display: grid;
   grid-template-columns: repeat(8, 42px);
   align-items: center;
-  gap: 24px 42px;
-  justify-content: center;
+  gap: 24px 0;
+  justify-content: space-between;
 }
 
 .tech-tile {
@@ -1476,17 +1466,28 @@ h3 {
 
   .months {
     overflow: hidden;
-    gap: 14px;
+    gap: 8px;
     justify-content: flex-start;
+    font-size: 10px;
+    letter-spacing: 0;
   }
 
   .heatmap {
-    grid-template-columns: repeat(14, 1fr);
+    grid-template-columns: repeat(53, minmax(0, 1fr));
+    gap: 2px;
+  }
+
+  .heatmap-caption {
+    flex-wrap: wrap;
+    gap: 8px 12px;
+    letter-spacing: 0;
   }
 
   .tech-grid {
-    grid-template-columns: repeat(6, 38px);
-    gap: 22px 30px;
+    max-width: 100%;
+    grid-template-columns: repeat(4, 38px);
+    gap: 20px 0;
+    justify-content: space-between;
   }
 
   .tech-tile {

@@ -1,10 +1,10 @@
 import Image from "next/image";
 import Link from "next/link";
 import {
-  ArrowUpRight,
   CalendarDays,
   Code2,
   Download,
+  Globe2,
   Mail,
   MapPin,
   TerminalSquare
@@ -82,6 +82,12 @@ function smallTechItem(name: string): TechStackItem {
       source: "skill"
     }
   );
+}
+
+function ProjectLinkIcon({ label, href }: { label: string; href: string }) {
+  const isGitHub = label.toLowerCase().includes("github") || href.includes("github.com");
+
+  return isGitHub ? <Code2 size={20} /> : <Globe2 size={20} />;
 }
 
 async function ContributionGrid() {
@@ -194,7 +200,6 @@ export default function Home() {
               Download CV
             </a>
           </div>
-          <div className="ghost-strip" aria-hidden="true" />
           <div className="social-row">
             <a aria-label="GitHub" href="https://github.com/Sethzy">
               <Code2 size={20} />
@@ -237,9 +242,15 @@ export default function Home() {
                   <h3>{project.title}</h3>
                   <div className="project-links">
                     {project.links.map((link) => (
-                      <a href={link.href} key={link.label} rel="noreferrer" target="_blank">
-                        {link.label}
-                        <ArrowUpRight size={12} />
+                      <a
+                        aria-label={link.label}
+                        href={link.href}
+                        key={link.label}
+                        rel="noreferrer"
+                        target="_blank"
+                        title={link.label}
+                      >
+                        <ProjectLinkIcon href={link.href} label={link.label} />
                       </a>
                     ))}
                   </div>
