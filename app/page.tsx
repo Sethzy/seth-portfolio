@@ -87,7 +87,7 @@ function smallTechItem(name: string): TechStackItem {
 function ProjectLinkIcon({ label, href }: { label: string; href: string }) {
   const isGitHub = label.toLowerCase().includes("github") || href.includes("github.com");
 
-  return isGitHub ? <Code2 size={20} /> : <Globe2 size={20} />;
+  return isGitHub ? <Code2 size={22} /> : <Globe2 size={22} />;
 }
 
 async function ContributionGrid() {
